@@ -1,0 +1,20 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build"
+  },
+  "devDependencies": {
+    "nan": "^2.0.5",
+    "node-gyp": "^1.0.3"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1"
+  },
+  "name": "counter32",
+  "version": "1.0.0",
+  "author": "Cameron Banta",
+  "license": "MIT",
+  "description": "32 bit unsigned integer that rolls over to 0 when full for statistics (like rrd)"
+
+}
